@@ -42,3 +42,7 @@ Roteamento de URLs com DRF Routers e boas práticas para testes e documentação
  
 Joselito Mota Júnior é formado em Bacharelado em Ciência da Computação pela Universidade Federal da Bahia, Mestre em Ciência da Computação com ênfase em Engenharia de Software pela mesma universidade. Pesquisador da área de Engenharia de
 Software com interesse em repositórios de software, detecção de defeitos, anomalias de software, rotulações de issues e análise de sentimentos. Alguns de seus trabalhos foram premiados em competições científicas (2o lugar no CTIC/CSBC 2020) e eventos (com “best paper award” no VEM/CBSoft 2019). Além de experiências acadêmicas, o professor possui atuação profissional de longa data como Engenheiro de Software Web e Mobile. Atualmente é doutorando no programa de pós-graduação em Ciência da Computação na UFBA com dedicação e participação no grupo de pesquisa ARIES LAB contribuindo para a construção de pesquisas na área de Engenharia de Software.
+
+### 
+
+https://docs.djangoproject.com/en/5.0/topics/install/#installing-official-release
