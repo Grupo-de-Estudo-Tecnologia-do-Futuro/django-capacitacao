@@ -1,0 +1,8 @@
+ms-python.python
+ms-python.isort
+donjayamanne.githistory
+humao.rest-client
+esbenp.prettier-vscode
+naumovs.color-highlight
+ms-vscode.live-server
+batisteo.vscode-django
