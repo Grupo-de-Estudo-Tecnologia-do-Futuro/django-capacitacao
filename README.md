@@ -55,10 +55,13 @@ wget https://raw.githubusercontent.com/TechVisionarys/django-capacitacao/rafael/
 wget -O - https://raw.githubusercontent.com/TechVisionarys/django-capacitacao/rafael/install-extensions.sh | bash
 ```
 
-
+```
 python3 -m venv .venv  # Creates a virtual environment named ".venv"
 source .venv/bin/activate  # Activates the virtual environment (Linux/macOS)
+```
+```
 .venv\Scripts\activate  # Activates the virtual environment (Windows)
+```
 
 pip install -r requirements.txt
 
