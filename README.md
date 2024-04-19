@@ -47,6 +47,8 @@ Software com interesse em repositórios de software, detecção de defeitos, ano
 
 https://docs.djangoproject.com/en/5.0/topics/install/#installing-official-release
 
+https://www.django-rest-framework.org/tutorial/quickstart/
+
 Usaremos o Visual Studio Code como editor padrão.
 
 Minhas extensões podem ser facilmente instaladas no seu VSCode executando os seguintes comandos:
