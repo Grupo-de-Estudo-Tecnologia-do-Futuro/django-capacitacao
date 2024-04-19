@@ -8,3 +8,4 @@ def exemploView(request):
    
     data = {'message': 'Hello, world!'}
     return Response(data)
+
