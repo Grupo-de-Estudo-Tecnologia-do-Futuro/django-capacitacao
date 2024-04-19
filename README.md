@@ -46,3 +46,14 @@ Software com interesse em repositórios de software, detecção de defeitos, ano
 ### 
 
 https://docs.djangoproject.com/en/5.0/topics/install/#installing-official-release
+
+python3 -m venv .venv  # Creates a virtual environment named ".venv"
+source .venv/bin/activate  # Activates the virtual environment (Linux/macOS)
+.venv\Scripts\activate  # Activates the virtual environment (Windows)
+
+pip install django # instalar django
+
+pip install djangorestframework # instalar django rest frame wordk
+
+python -m django --version
+python -m rest_framework --version
