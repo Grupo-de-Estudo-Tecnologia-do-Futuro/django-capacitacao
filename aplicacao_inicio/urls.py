@@ -17,10 +17,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from primeiro_app import primeiro_app
+import primeiro_app.urls 
+import primeiro_app
 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include(primeiro_app.urls))
+    path("", include(primeiro_app.urls))
 ]
