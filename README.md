@@ -52,7 +52,7 @@ Usaremos o Visual Studio Code como editor padrão.
 Minhas extensões podem ser facilmente instaladas no seu VSCode executando os seguintes comandos:
 ```bash
 wget https://raw.githubusercontent.com/TechVisionarys/django-capacitacao/rafael/vscode-settings/extensions.txt
-wget -O - https://raw.githubusercontent.com/TechVisionarys/django-capacitacao/rafael/install-extensions.sh | bash
+wget -O - https://raw.githubusercontent.com/TechVisionarys/django-capacitacao/rafael/install-extensios.sh | bash
 ```
 
 ```
