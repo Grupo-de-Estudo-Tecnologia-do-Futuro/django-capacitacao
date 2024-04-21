@@ -73,3 +73,10 @@ pip install djangorestframework # instalar django rest frame wordk
 
 python -m django --version
 python -m rest_framework --version
+
+#api/empretimo/crir_emprestimo
+
+django # MVT = Model View Templetes - Banco primeiro
+django rest framemork -  MVS
+
+#source deactivate - dasativa env
