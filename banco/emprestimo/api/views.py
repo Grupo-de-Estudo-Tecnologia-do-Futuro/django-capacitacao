@@ -3,8 +3,8 @@ from rest_framework.response import Response
 from .serializers import SimulacaoEmprestimoSerializer
 
 class SimulacaoEmprestimoCreateView(generics.ListCreateAPIView):
-
-    def post(self, request, *args,  **kwargs):
+    serializer_class = SimulacaoEmprestimoSerializer
+    def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data, context=({'request' : request}))
 
         if serializer.is_valid():
@@ -12,7 +12,7 @@ class SimulacaoEmprestimoCreateView(generics.ListCreateAPIView):
 
         return Response(
             {"data" : SimulacaoEmprestimoSerializer(
-                retorno_salvamento, context= self.get_serializer_context()).data, "result" : "Dados Salvoos com sucesso"},
+                retorno_salvamento, context= self.get_serializer_context()).data, "result" : "Dados Salvos com sucesso"},
                 
                 status = status.HTTP_201_CREATED
         )

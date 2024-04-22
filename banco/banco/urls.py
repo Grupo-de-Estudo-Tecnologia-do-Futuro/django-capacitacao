@@ -23,5 +23,5 @@ route = routers.DefaultRouter()
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/emprestimo", include("emprestimo.api.urls"))
+    path("api/emprestimo/", include("emprestimo.api.urls"))
 ]
