@@ -1,6 +1,7 @@
 from rest_framework import generics, status
 from rest_framework.response import Response
 from .serializers import SimulacaoEmprestimoSerializer
+from emprestimo.models import SimulacaoEmprestimo
 
 class SimulacaoEmprestimoCreateView(generics.ListCreateAPIView):
     serializer_class = SimulacaoEmprestimoSerializer
@@ -16,3 +17,5 @@ class SimulacaoEmprestimoCreateView(generics.ListCreateAPIView):
                 
                 status = status.HTTP_201_CREATED
         )
+
+
