@@ -5,3 +5,4 @@ class SimulacaoEmprestimo(models.Model):
     valor_emprestimo = models.DecimalField(max_digits=10, decimal_places=2)
     taxa_juros = models.DecimalField(max_digits=5, decimal_places=2)
     prazo_meses= models.IntegerField()
+

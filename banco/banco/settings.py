@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "emprestimo",
+    "financiamento_de_veiculos",
+    "drf_yasg",
+    "financiamento_imovel",
 ]
 
 MIDDLEWARE = [
