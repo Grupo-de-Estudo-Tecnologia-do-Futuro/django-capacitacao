@@ -5,6 +5,6 @@ from financiamento_veiculos.models import FinanciamentoVeiculos
 
 
 
-class FinanciamentoVeiculolListCreateView(generics.ListCreateAPIView):
+class FinanciamentoVeiculoListCreateView(generics.ListCreateAPIView):
     queryset = FinanciamentoVeiculos.objects.all()
     serializer_class =  FinanciamentoVeiculosSerializer
