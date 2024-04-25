@@ -44,6 +44,7 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path("admin/", admin.site.urls),
     path('api/emprestimo/', include("emprestimo.api.urls")),
-    path('api/financiamento_imovel/', include("emprestimo.api.urls"))
+    path('api/financiamento_imovel/', include("financiamento_imovel.api.urls")),
+    path('api/financiamento_veiculo/', include("financiamento_de_veiculos.api.urls"))
     
 ]
