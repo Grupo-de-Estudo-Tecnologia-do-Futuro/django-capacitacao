@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .serializers import SimulacaoVeiculoSerializer
 from financiamento_de_veiculos.models import SimulacaoVeiculo
 
-class SimulacaoVeiculoListCreate(generics.ListAPIView):
+class SimulacaoVeiculoListCreate(generics.ListCreateAPIView):
     queryset = SimulacaoVeiculo.objects.all()
     serializer_class = SimulacaoVeiculoSerializer
     
