@@ -80,3 +80,16 @@ django # MVT = Model View Templetes - Banco primeiro
 django rest framemork -  MVS
 
 #source deactivate - dasativa env
+
+# Fazer primeiro serializers em api
+<!-- 
+1. Criar app
+2. Import urls em settings
+3. Fazer models
+4. Fazer migrações
+4. Fazer pasta api
+5. Fazer arquivo serizalizers
+6. Fazer arquivo views
+7. fazer arquivo urls
+8. configurar arquivo urls no core do projeto.
+9. Fazer workplece no postmaan e testas -->
