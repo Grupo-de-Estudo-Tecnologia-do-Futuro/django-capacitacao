@@ -35,9 +35,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-vscode-settings/
-vscode-settings/
-install
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
